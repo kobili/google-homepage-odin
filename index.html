@@ -3,36 +3,56 @@
     <head>
         <title>Google</title>
         <link rel="icon" type="image/png" href="/images/google-favicon.png">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <header>
-            <a href="">About</a>
-            <a href="">Store</a>
-            <a href="">Gmail</a>
-            <a href="">Images</a>
-            <img src="" alt="Menu icon">
-            <img src="" alt="Profile picture">
+            <div id="header-lhs">
+                <a href="">About</a>
+                <a href="">Store</a>
+            </div>
+
+            <div id="header-rhs">
+                <a href="">Gmail</a>
+                <a href="">Images</a>
+                <img src="" alt="Menu icon">
+                <img src="" alt="Profile picture">
+            </div>
+
+
         </header>
 
         <main>
-            <img src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <input type="text">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <img id="main-logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
 
-            <p>Google offered in: </p>
-            <a href="">日本語</a>
-            <a href="">Français</a>
+            <input id="search-bar" type="text">
+
+            <div id="submission-buttons">
+                <button id="standard-search">Google Search</button>
+                <button id="lucky-search">I'm Feeling Lucky</button>
+            </div>
+
+            <p>Google offered in: <a href="">日本語</a>  <a href="">Français</a></p>
+
         </main>
 
         <footer>
             <p>Canada</p>
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-            <a href="">How Search Works</a>
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+
+            <div id="footer-links">
+                <div id="footer-lhs-links">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search Works</a>
+                </div>
+    
+                <div id="footer-rhs-links">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+
         </footer>
     </body>
 </html>
