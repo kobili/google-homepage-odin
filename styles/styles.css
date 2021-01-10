@@ -3,11 +3,32 @@ html {
     font-family: Arial, sans-serif
 }
 
-
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 13px;
+}
+
+#header-lhs {
+    margin: 7px 0 0 10px;
+}
+
+#header-lhs a {
+    height: 15px;
+    padding-left: 15px;
+    color: #000000;
+}
+
+#header-rhs {
+    padding: 0 30px 0 30px;
+    height: 24px;
+    margin-top: 7px;
+}
+
+#header-rhs a {
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 main {
@@ -19,10 +40,53 @@ main {
     align-items: center;
 }
 
+main p {
+    font-size: 13px;
+}
+
+#main-logo {
+    height: 92px;
+    width: 272px;
+    padding: 109px 0 0 0;
+}
+
+#search-bar {
+    border-radius: 20px;
+    width: 500px;
+    height: 32px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-width: thin;
+    border-style: none;
+    box-shadow: 0px 0px 2px grey;
+    text-indent: 30px;
+}
+
+button {
+    height: 35px;
+    border-style: none;
+    padding: 0 15px 0 15px;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 1px grey;
+}
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+footer a {
+    font-size: 14px;
+}
+
+#footer-country {
+    font-size: 15px;
 }
 
 #footer-lhs-links {
@@ -31,4 +95,12 @@ footer {
 
 #footer-rhs-links {
     float: right;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
 }
